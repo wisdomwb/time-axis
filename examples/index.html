@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cx-time-main" id="cxTime"></div>
+    <script src="time-axis.js"></script>
+    <script type="module">
+      const timeList = [
+        { name: "第一次", time: "2019-11-01" },
+        { name: "第二次", time: "2019-11-02" },
+        { name: "第三次", time: "2019-11-03" },
+        { name: "第四次", time: "2019-11-04" },
+        { name: "第五次", time: "2019-11-05" },
+        { name: "第六次", time: "2019-11-06" },
+        { name: "第七次", time: "2019-11-07" },
+        { name: "第八次", time: "2019-11-08" },
+        { name: "第九次", time: "2019-11-09" }
+      ]; //参数列表
+      const param = {
+        data: timeList,
+        id: "cxTime",
+        width: "150px",
+        index: 0,
+        then: function (data) {
+          console.log(data);
+        }
+      };
+      new TimeAxis.default(param);
+    </script>
+  </body>
+</html>
