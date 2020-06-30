@@ -1,21 +1,12 @@
-.cx-time-main ul{
-	white-space:nowrap;
-    margin: 0;
-    height: 100%;
-}
-.cx-time-main ul li{
-	outline: none;
-	display: inline-block;
-	list-style-type: none;
-	margin: 0px;
-}
 .cx-time-main{
 	width: 50%;
 	height: 80px;
 	margin-left: auto;
 	margin-right: auto;
-    margin-top: 50px;
+	margin-top: 50px;
+	text-align: initial;
 }
+
 .cx-time-main > span{
 	width: 20px;
 	height: 80px;
@@ -36,6 +27,20 @@
 	padding: 0;
 	overflow: hidden;
 }
+
+.cx-time-main ul{
+	white-space:nowrap;
+    margin: 0;
+    height: 100%;
+}
+
+.cx-time-main ul li{
+	outline: none;
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px;
+}
+
 .cx-time-main .cx-round-box{
 	position: relative;
 	width: 12px;
