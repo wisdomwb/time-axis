@@ -1,7 +1,7 @@
 {
   "name": "time-axis",
   "version": "1.0.0",
-  "description": "",
+  "description": "A time axis plug-in that can move left and right and adjust page width.",
   "main": "dist/time-axis.js",
   "scripts": {
     "build": "webpack && cp dist/time-axis.js examples",
