@@ -4,7 +4,7 @@ The plugin works with CommonJS, AMD and as global variable.
 
 一款可以左右移动而且自适应页面宽度的时间轴插件。该插件可以在CommonJS, AMD引入，也可以在global下使用。
 
-![image](http://pei-zhanglina-du-guo-man-chang-sui-yue.cn:8099/example.png)
+![image](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1594088198892&di=91d13c7faa0d16bcfa0b85390cf50db3&imgtype=0&src=http%3A%2F%2Fa2.att.hudong.com%2F36%2F48%2F19300001357258133412489354717.jpg)
 ## Installation
 ```
 > npm install time-axis --save
