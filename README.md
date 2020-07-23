@@ -2,7 +2,7 @@ A time axis plugin that can move left and right and adjust page width.
 The plugin works with CommonJS, AMD and as global variable.
 
 
-一款可以左右移动而且自适应页面宽度的时间轴插件。该插件可以在CommonJS, AMD引入，也可以在global下使用。
+一款可以左右移动而且自适应页面宽度的时间轴插件。该插件可以在CommonJS, AMD引入，也可以在global下使用。（该插件基于[Big peach](http://www.jq22.com/mem814620)写的[jQuery时间轴插件TimeAxis](http://www.jq22.com/jquery-info22452)改造）
 
 ![image](https://pei-zhanglina-du-guo-man-chang-sui-yue.cn/example.png)
 ## Installation
