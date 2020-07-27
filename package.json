@@ -1,5 +1,5 @@
 {
-  "name": "time-axis",
+  "name": "time-axis-scroll",
   "version": "1.0.0",
   "description": "A time axis plugin that can move left and right and adjust page width.",
   "main": "dist/time-axis.js",
