@@ -11,7 +11,7 @@ The plugin works with CommonJS, AMD and as global variable.
 
 ## Installation
 ```
-> npm install time-axis --save
+> npm install time-axis-scroll --save
 ```
 ## Usage
 ```
