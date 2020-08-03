@@ -22,7 +22,7 @@ The plugin works with CommonJS, AMD and as global variable.
 </template>
 
 <script>
-import TimeAxis from "time-axis";
+import TimeAxis from "time-axis-scroll";
 
 export default {
   name: "HelloWorld",
