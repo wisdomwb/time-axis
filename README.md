@@ -16,9 +16,7 @@ The plugin works with CommonJS, AMD and as global variable.
 ## Usage
 ```
 <template>
-  <div class="hello">
-    <div class="cx-time-main" id="cxTime"></div>
-  </div>
+  <div class="cx-time-main" id="cxTime"></div>
 </template>
 
 <script>
