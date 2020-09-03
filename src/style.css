@@ -55,6 +55,7 @@
 	background: rgba(18,175,255,0.8);
 	border-radius: 50%;
 	cursor: pointer;
+	z-index: 9;
 }
 .cx-time-main .cx-time-top{
 	position: absolute;
@@ -94,7 +95,8 @@
     height: 16px;
     top: 49%;
     left: -2px;
-    background: rgba(129,71,181,0.8);
+    background: rgb(129,71,181);
+    /* background: rgba(129,71,181,0.8); */
 }
 .cx-time-main .cx-time-active > div{
 	color: rgb(129,71,181);
