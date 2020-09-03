@@ -91,7 +91,7 @@ TimeAxis.prototype = {
     const points = document.querySelectorAll(cls + " .cx-time-round");
     points.forEach(item => {
       item.onclick = () => {
-        self.options.index = item.getAttribute("data-index");
+        self.options.index = Number(item.getAttribute("data-index"));
         self.timeAxisMove(0); //点击某一点
       };
     });
