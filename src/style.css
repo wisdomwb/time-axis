@@ -70,12 +70,13 @@
 .cx-time-main .cx-time-bottom{
 	position: absolute;
 	top: 50%;
-	left: -30px;
+	left: -55px;
 	width: 120px;
 	min-height: 20px;
 	height: auto;
 	font-size: 14px;
 	margin-top: 12px;
+	text-align: center;
 }
 .cx-time-main .cx-time-line{
 	position: relative;
