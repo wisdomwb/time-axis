@@ -120,7 +120,7 @@ TimeAxis.prototype = {
   changeCurIndex(num) {
     this.options.index = num;
     this.timeAxisRoll();
-    this.timeAxisActive();
+    this.timeAxisActive(toggleCallback);
   },
 
   //选中节点左右滚动
@@ -151,11 +151,13 @@ TimeAxis.prototype = {
   },
 
   // 前后滑动点击事件
-  timeAxisActive: function () {
+  timeAxisActive: function (toggleCallback = true) {
     if (!this.firstLoad) {
       var list = this.options.data || [];
       var data = list[this.options.index];
-      this.options.then(data);
+      if (toggleCallback) {
+        this.options.then(data);
+      }
     } // 首次加载不执行回调
     document.querySelectorAll(".cx-round-box").forEach(item => {
       item.classList.remove("cx-time-active");
