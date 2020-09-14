@@ -7,6 +7,7 @@
   </head>
   <body>
     <div class="cx-time-main" id="cxTime"></div>
+    <button id="btn">手动修改当前选中节点</button>
     <script src="time-axis.js"></script>
     <script type="module">
       const timeList = [
@@ -18,7 +19,15 @@
         { name: "第六次", time: "2019-11-06" },
         { name: "第七次", time: "2019-11-07" },
         { name: "第八次", time: "2019-11-08" },
-        { name: "第九次", time: "2019-11-09" }
+        { name: "第九次", time: "2019-11-09" },
+        { name: "第10次", time: "2019-11-10" },
+        { name: "第11次", time: "2019-11-11" },
+        { name: "第12次", time: "2019-11-12" },
+        { name: "第13次", time: "2019-11-13" },
+        { name: "第14次", time: "2019-11-14" },
+        { name: "第15次", time: "2019-11-15" },
+        { name: "第16次", time: "2019-11-16" },
+        { name: "第17次", time: "2019-11-17" }
       ]; //参数列表
       const param = {
         data: timeList,
@@ -29,7 +38,11 @@
           console.log(data);
         }
       };
-      new TimeAxis.default(param);
+      const a = new TimeAxis.default(param);
+      const btn = document.getElementById("btn");
+      btn.onclick = function () {
+        a.changeCurIndex(16);
+      };
     </script>
   </body>
 </html>
