@@ -120,7 +120,7 @@ TimeAxis.prototype = {
   changeCurIndex(num) {
     this.options.index = num;
     this.timeAxisRoll();
-    this.timeAxisActive(true);
+    this.timeAxisActive(false);
   },
 
   //选中节点左右滚动
