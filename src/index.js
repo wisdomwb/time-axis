@@ -114,7 +114,7 @@ TimeAxis.prototype = {
       this.options.index = 0;
     }
     this.timeAxisRoll();
-    this.timeAxisActive(this.options.index);
+    this.timeAxisActive(true);
   },
 
   changeCurIndex(num) {
@@ -151,7 +151,7 @@ TimeAxis.prototype = {
   },
 
   // 前后滑动点击事件
-  timeAxisActive: function (toggleCallback = true) {
+  timeAxisActive: function (toggleCallback) {
     if (!this.firstLoad) {
       var list = this.options.data || [];
       var data = list[this.options.index];
